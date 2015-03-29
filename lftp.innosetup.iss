@@ -20,9 +20,9 @@ AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName={pf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
-LicenseFile=C:\Users\Tommy\Desktop\inno chocolaty\lftp-4.6.1.win32-openssl\GPL.txt
-InfoBeforeFile=C:\Users\Tommy\Desktop\inno chocolaty\lftp-4.6.1.win32-openssl\info.txt
-InfoAfterFile=C:\Users\Tommy\Desktop\inno chocolaty\lftp-4.6.1.win32-openssl\batch.txt
+LicenseFile=C:\Users\Administrator\Desktop\inno chocolaty\lftp-4.6.1.win32-openssl\GPL.txt
+InfoBeforeFile=C:\Users\Administrator\Desktop\inno chocolaty\lftp-4.6.1.win32-openssl\info.txt
+InfoAfterFile=C:\Users\Administrator\Desktop\inno chocolaty\lftp-4.6.1.win32-openssl\batch.txt
 OutputBaseFilename=setup
 Compression=lzma2
 SolidCompression=yes
@@ -31,7 +31,7 @@ SolidCompression=yes
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
-Source: "C:\Users\Tommy\Desktop\inno chocolaty\lftp-4.6.1.win32-openssl\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\Administrator\Desktop\inno chocolaty\lftp-4.6.1.win32-openssl\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
