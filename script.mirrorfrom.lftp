@@ -1,0 +1,4 @@
+set sftp:auto-confirm yes
+set sftp:connect-program './ssh.exe'; 
+open sftp://user:password@site:port
+mirror --verbose --use-pget-n=8 -c  /remote/path /cygdrive/driveletter/folder
